@@ -1,4 +1,4 @@
-﻿Random dice = new();
+﻿Random dice = new Random();
 
 int roll = dice.Next(1, 7);
 
@@ -11,3 +11,8 @@ if (roll > 3) {
 };
 
 Console.WriteLine(result);
+
+Random res = new();
+int r = res.Next();
+
+Console.WriteLine(r);
